@@ -1,0 +1,253 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    font-size: 12px;
+    font-family: sans-serif;
+    background-color: #eeeeee;
+}
+
+nav{
+    margin: 15px auto 0;
+    position: relative;
+    width: 88vw;
+    height: 50px;
+    background-color: #ece9e3;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px #15f7eb73;
+    font-size: 0;
+}
+
+nav a{
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    font-weight: bolder;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+}
+
+nav.animation{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all .8s ease-in-out 0s;
+    border-radius: 8px;
+}
+
+a:nth-child(1){
+    width: 22vw;
+}
+
+a:nth-child(2){
+    width: 22vw;
+}
+
+a:nth-child(3){
+    width: 22vw;
+}
+
+a:nth-child(4){
+    width: 22vw;
+}
+
+nav.start-home, a:nth-child(1):hover{
+    transition: .2s ease-in-out;
+    width: 22vw;
+    left: 0;
+    border-radius: 8px;
+    background-color: #15f7eb73;
+}
+
+nav.start-sobre, a:nth-child(2):hover{
+    transition: .2s ease-in-out;
+    width: 22vw;
+    left: 0px;
+    border-radius: 8px;
+    background-color: #15f7eb73;
+}
+
+nav.start-portifolio, a:nth-child(3):hover{
+    transition: .2s ease-in-out;
+    width: 22vw;
+    left: 0px;
+    border-radius: 8px;
+    background-color: #15f7eb73;
+}
+
+nav.start-contato, a:nth-child(4):hover{
+    transition: .2s ease-in-out;
+    width: 22vw;
+    left: 0px;
+    border-radius: 8px;
+    background-color: #15f7eb73;
+}
+
+h1{
+    padding: 8px;
+    font-size: 2.3em;
+    text-align: center;
+    color: black;
+}
+
+#projetos{
+    margin: auto;
+    width: 98vw;
+}
+
+#projetos > h2{
+    margin: 8px;
+    font-size: 2.1em;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+}
+
+.catalogo{
+    margin: 8px auto;
+    height: 148px;
+    width: 94vw;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 2px 4px 6px #7e2e8488;
+    background-color: #f0efed;
+}
+
+.catalogo > h3{
+    text-align: center;
+    padding: 4px;
+    font-size: 2em;
+}
+
+.catalogo > p{
+    padding: 4px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.catalogo > a{
+    margin: 4px;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 14px;
+    border-radius: 8px;
+    float: right;
+}
+
+.catalogo > a:hover{
+    transition: .4s ease-in-out;
+    background-color: #7e2e8488;
+    color: white;
+}
+
+#convite{
+    margin-top: 0px 0px;
+    font-weight: bolder;
+    font-size: 1.3em;
+    text-align: center;
+    color: black;
+}
+
+#convite > a{
+    text-decoration: none;
+    color: black;
+}
+
+#convite > a:hover{
+    padding: 4px;
+    color: white;
+}
+
+#sobre{
+    margin: 10px auto 0;
+    width: 94vw;
+    height: 148px;
+    border-radius: 8px;
+    background-color: #ece9e3;
+    box-shadow: 2px 4px 6px #15f7ec86;
+}
+#sobre > h2{
+    margin: 8px;
+    font-size: 2.2em;
+    text-align: center;
+    color: black;
+}
+
+#sobre > p{
+    margin: 4px 8px;
+    padding: 4px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+#social{
+    margin:auto 0;
+    width: 96vw;
+    display: grid;
+}
+
+#social > h2{
+    padding: 0px;
+    text-align: center;
+    font-size: 2.4em;
+    color: #000000;
+}
+
+#social > a{
+    margin: auto;
+    height: 20px;
+    width: 56vw;
+    padding: 4px;
+    margin-bottom: 6px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px #15f7eb73;
+    color: black;
+}
+
+#social > a:hover{
+    transition: .5s ease-in-out;
+    background-color: #15f7eb73;
+    box-shadow: 2px 2px 4px white;
+    border-radius: 8px;
+    color: white;
+}
+
+footer{
+    margin-top: 12px;
+    height: 18px;
+    padding: 6px;
+    background-color: #d6d5d1;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+footer > p > a{
+    padding: 4px;
+    text-decoration: none;
+    color: black;
+    border-radius: 8px;
+}
+
+footer > p > a:hover{
+    color: white;
+    transition: .4s ease-in-out;
+}
